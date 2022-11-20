@@ -1,4 +1,4 @@
-# VRkeyboard
+# Vision-based Finger Embedded Virtual Touch Keyboard System
 
 ### 컴퓨터비전 기반 키패드 및 웨어러블 컨트롤러
 
