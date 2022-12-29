@@ -1,9 +1,20 @@
-# Vision based Virtual Touch Keyboard: Focused on Unconstrained Usability
+**Vision based Virtual Touch Keyboard: Focused on Unconstrained Usability**
+
 ## 시각 기반 가상 터치 키보드: 자유로운 사용성을 중심으로
 
+기존 AR/VR 환경에서 주로 사용하는 컨트롤러 포인팅 방식과 핸드 .트래킹 방식의 가상 키보드 시스템은 별도의 하드웨어가 필요하거나 키보드 UI가 차지하는 면적이 넓어 AR/VR의 자유로운 사용을 방해한다. 본 연구에선 기존의 가상 키보드 시스템의 한계를 극복하기 위하여 시각 기반 손가락 임베디드 터치 키보드 시스템을 제안 및 구현한다. 본 키보드 시스템은 Mediapipe Hands 라이브러리를 사용하여 사용자의 손에 천지인 키보드를 배열함과 동시에 키보드를 포인팅하는 손가락의 위치를 추적하고, 피에조 센서(Piezoelectric sensor)로 충돌을 감지하여 터치를 입력 받는 방식으로 동작한다. 한영 변환, 스페이스, 백스페이스의 경우 키패드가 아닌 제스처 인터랙션으로 입력 받는다. 본고에선 본 키보드 시스템의 프로토타입을 컨트롤러 포인팅 방식, 그리고 핸드 트래킹 방식과 5가지 측면에서 비교하고, 사용성 평가를 위한 인터뷰와 설문을 진행했다. 본 시스템의 새로운 문자 입력 방식은 실외에서의 자유로운 AR 사용에 기여할 것으로 기대된다.
+
+![그림3](README.assets/%EA%B7%B8%EB%A6%BC3.png)
 
 
 
+### 사용한 버전 정보
+
+- 파이썬 : 3.9.7
+- 유니티 에디터 : 2020.3.26f1
+- Oculus WR Plugin : 1.11.2
+- XR Plugin Management : 4.2.1
+- TextMeshPro : 3.0.6
 
 
 
